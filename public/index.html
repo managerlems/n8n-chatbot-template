@@ -10,28 +10,28 @@
 
   <!-- Widget Configuration -->
   <script>
-    window.ChatWidgetConfig = {
-      webhook: {
-        url: "<your n8n webhook URL>",
-        route: "general"
-      },
-      branding: {
-        logo: "<your company logo URL>",
-        name: "DT",
-        welcomeText: "Hi 👋, how can we help?",
-        responseTimeText: "We typically respond right away"
-      },
-      style: {
-        primaryColor: "#854fff",
-        secondaryColor: "#6b3fd4",
-        position: "right",
-        backgroundColor: "#854fff",
-        fontColor: "#854fff"
-      }
-    };
+      window.ChatWidgetConfig = {
+          webhook: {
+              url: '<your-n8n-webhook-url>',
+              route: 'general'
+          },
+          branding: {
+              logo: '<your-company-logo-url>',
+              name: 'DT', 
+              welcomeText: 'Hi 👋, how can we help?', 
+              responseTimeText: 'We typically respond right away' 
+          },
+          style: {
+              primaryColor: '#854fff',
+              secondaryColor: '#6b3fd4',
+              position: 'right',
+              backgroundColor: '#ffffff',
+              fontColor: '#333333'
+          }
+      };
   </script>
 
-  <!-- Load local widget file for Railway preview -->
-  <script src="./chat-widget.js" defer></script>
+  <!-- Load Widget -->
+  <script src="./chat-widget.js"></script>
 </body>
 </html>
