@@ -1,5 +1,8 @@
-[build]
-builder = "static"
+[project]
+name = "chat-widget"
 
-[static]
-publish = "public"
+[build]
+builder = "@railway/static"
+public_root = "./"
+index = "index.html"
+fallback = "index.html"
